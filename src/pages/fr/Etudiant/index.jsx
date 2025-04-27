@@ -13,7 +13,7 @@ import Etudier from '../../../components/fr/etudiant/Etudier'
 import Profile from '../../../components/fr/etudiant/Profile'
 
 export default function Etudiant() {
-  const [activeTab, setActiveTab] = useState('dashboard')
+  const [activeTab, setActiveTab] = useState('formations')
   const [formationID, setFormationID] = useState(null)
   const [headerOpened, setHeaderOpened] = useState(true)
 
