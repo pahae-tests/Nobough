@@ -89,6 +89,7 @@ const Header = ({ activeTab, setActiveTab, headerOpened, setHeaderOpened, etudia
 
     useEffect(() => {
         const active = localStorage.getItem('activeTabSecretaire')
+        if(active === "null") active = 'adhesions'
         setActiveTab(active)
     }, [])
 
