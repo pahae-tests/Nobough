@@ -119,7 +119,7 @@ export default function ({ revenus, setRevenus }) {
 
             {showAddRevenuForm && (
                 <div className="fixed inset-0 bg-black/50 backdrop-blur-lg flex items-center justify-center z-50 cursor-pointer" onClick={() => setShowAddRevenuForm(false)}>
-                    <div className="bg-white/50 backdrop-blur-xs shadow-xl rounded-lg p-6 w-full max-w-md md:max-w-lg lg:max-w-xl" onClick={e => e.stopPropagation()}>
+                    <div className="bg-white/60 backdrop-blur-3xl shadow-xl rounded-lg p-6 w-full max-w-md md:max-w-lg lg:max-w-xl" onClick={e => e.stopPropagation()}>
                         <h3 className="text-lg md:text-xl font-semibold mb-4">Ajouter un revenu</h3>
                         <img src="/logo2-nobg.png" className="w-16 h-16 absolute top-4 right-4" onClick={() => setShowAddRevenuForm(false)} />
 
