@@ -7,7 +7,7 @@ import Room from '../../../components/fr/professeur/Room'
 import Profile from '../../../components/fr/professeur/Profile'
 
 export default function Professeur() {
-  const [activeTab, setActiveTab] = useState('dashboard')
+  const [activeTab, setActiveTab] = useState('formations')
   const [formationID, setFormationID] = useState(null)
   const [headerOpened, setHeaderOpened] = useState(true)
 
