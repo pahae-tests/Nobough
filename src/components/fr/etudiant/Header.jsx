@@ -100,6 +100,7 @@ const Header = ({ activeTab, setActiveTab, headerOpened, setHeaderOpened, format
 
     useEffect(() => {
         const active = localStorage.getItem('activeTabEtudiant')
+        if(active === "null") active = 'formations'
         setActiveTab(active)
     }, [])
 
