@@ -77,7 +77,7 @@ export default function ({ budget, events, setEvents }) {
 
             {showAddEventForm && (
                 <div className="fixed inset-0 bg-black/50 backdrop-blur-lg flex items-center justify-center z-50 cursor-pointer" onClick={() => setShowAddEventForm(false)}>
-                    <div className="bg-white/50 backdrop-blur-xs shadow-xl rounded-lg p-6 w-full max-w-md" onClick={e => e.stopPropagation()}>
+                    <div className="bg-white/60 backdrop-blur-3xl shadow-xl rounded-lg p-6 w-full max-w-md" onClick={e => e.stopPropagation()}>
                         <h3 className="text-lg font-semibold mb-4">Ajouter un événement</h3>
                         <img src="/logo2-nobg.png" className="w-16 h-16 absolute top-4 right-4" onClick={() => setShowAddEventForm(false)} />
 
