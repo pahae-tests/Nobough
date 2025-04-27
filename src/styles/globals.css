@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body, .bg {
+    background-image: url('../../public/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    /* background-image: url('../../public/bg-header.png'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: rotate(180deg);
+}
+
+* {
+    scrollbar-width: none;
+}
+
+form {
+    max-height: 75vh;
+    overflow-y: scroll;
+}
