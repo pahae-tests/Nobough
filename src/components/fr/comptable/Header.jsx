@@ -26,6 +26,7 @@ const Header = ({ activeTab, setActiveTab, headerOpened, setHeaderOpened }) => {
 
     useEffect(() => {
         const active = localStorage.getItem('activeTabComptable')
+        if(active === "null") active = 'budget'
         setActiveTab(active)
     }, [])
 
